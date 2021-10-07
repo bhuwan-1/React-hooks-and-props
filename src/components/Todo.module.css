@@ -1,0 +1,44 @@
+
+.container{
+    height: 250px;
+    width: 400px;
+    border: 3px solid rgb(12, 109, 99);
+    border-radius: 7px;
+    padding-left: 50px;
+}
+
+.btn{
+    
+    height: 30px;
+    width: 75px;
+    background-color: rgb(12, 109, 99);
+    border-radius: 4px;
+    color: white;
+    font-size: medium;
+    outline: none;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid rgb(12, 109, 99);
+    color: black;
+}
+
+.btn_container{
+    /* display: flex; */
+    padding: 20px;
+    
+}
+
+.btn_container > p {
+    margin-left: 20px;
+}
+
+.backdrop{
+    background-color: rgba(80, 79, 79, 0.192);
+    height: 100%;
+    width: 100%;
+}
+
